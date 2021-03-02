@@ -5,8 +5,8 @@ var server = require('./js/server.js');
 
 if(gui) {
     //win.x = -1080;
-    win.x = 0;
-    win.y = 0;
+    win.x = -1080;
+    win.y = 30;
     //win.y = 30;
 } else {
 }
