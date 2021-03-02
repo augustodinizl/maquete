@@ -1,6 +1,5 @@
 var fs = require('fs');
-var gui = require('nw.gui'); 
-var win = gui.Window.get();
+var win = Window.get();
 var pontos = require('./js/pontos.js');
 var server = require('./js/server.js');
 
